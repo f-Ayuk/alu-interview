@@ -18,6 +18,15 @@ def minOperations(n):
         divisor += 1
     return operations
 
-# Example usage:
-print("Min # of operations to reach 4 char:", minOperations(4))  # Output: 4
-print("Min # of operations to reach 12 char:", minOperations(12)) # Output: 7
+
+# Testing the function
+if __name__ == "__main__":
+    n1 = 4
+    print(
+        "Min number of operations to reach {} characters: {}".format(
+            n1, minOperations(n1)))
+
+    n2 = 12
+    print(
+        "Min number of operations to reach {} characters: {}".format(
+            n2, minOperations(n2)))
