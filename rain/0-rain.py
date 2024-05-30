@@ -1,3 +1,5 @@
+#!//usr/bin/python3
+
 def rain(walls):
     n = len(walls)
     left_max = [0] * n
