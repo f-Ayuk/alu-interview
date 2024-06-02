@@ -3,10 +3,11 @@
 Rainwater Retention Algorithm
 """
 
+
 def rain(walls):
     if not walls:
         return 0
-    
+
     total_water = 0
     n = len(walls)
     left_max = [0] * n
@@ -35,4 +36,4 @@ if __name__ == "__main__":
     print(rain(walls))  # Output: 6
 
     walls = [2, 0, 0, 4, 0, 0, 1, 0]
-    print(rain(walls)) # Output: 6
+    print(rain(walls))  # Output: 6
